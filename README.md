@@ -1,7 +1,7 @@
 # T01D01 
 The russian version of the task can be found in the repository.
 
-![This day will help you get acquainted with Linux shell (Bash).](misc/images/eng/day1_door.png)
+![day1_door](misc/images/eng/day1_door.png)
 
 ## Contents
 
