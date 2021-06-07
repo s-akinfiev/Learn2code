@@ -100,7 +100,7 @@ Not so bad actually!
 
 Not so bad actually!
 
-![day1_coffee](misc/images/eng/day1_coffee.png)
+![](misc/images/eng/day1_coffee.png)
 
 \> *Drink the coffee*
 
