@@ -24,7 +24,7 @@ The russian version of the task can be found in the repository.
 4. [Chapter IV](#chapter-iv) 
 
 
-## Chapter I
+# Chapter I
 
 ## Readme!
 
@@ -147,7 +147,7 @@ There are other papers, below the one you've read.
 ***LOADING...***
 
 
-## Chapter II
+# Chapter II
 
 ## List 1.
 
@@ -209,7 +209,7 @@ The printer has chewed it up. It must be a matrix one.
 ***LOADING…***
 
 
-## Chapter III
+# Chapter III
 
 ## Quest 1. Clone.
 
@@ -424,7 +424,7 @@ _**== Quest 7 received. Create branches in git according to the instructions fro
 ***LOADING...***
 
 
-## Chapter IV
+# Chapter IV
 
 \> *Ready*
 

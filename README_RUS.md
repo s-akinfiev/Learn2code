@@ -99,7 +99,7 @@
 
 А вообще, не так уж и плохо!
 
-![](misc/images/rus/day1_coffee.png)
+![day1_coffee](misc/images/rus/day1_coffee.png)
 
 \> *Выпить кофе*
 
