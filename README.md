@@ -19,7 +19,7 @@ The russian version of the task can be found in the repository.
 4. [Chapter IV](#chapter-iv)
 
 
-## Chapter I
+# Chapter I
 
 ## Level 1. Room 2.
 
@@ -100,7 +100,7 @@ The system starts loading rather quickly; vim has loaded by default. That's wher
 ***LOADING...***
 
 
-## Chapter II
+# Chapter II
 
 ## List 1.
 
@@ -149,7 +149,7 @@ You exit into command line interpreter.
 ***LOADING...***
 
 
-## Chapter III
+# Chapter III
 
 ## Quest 1. Vim.
 
@@ -244,7 +244,7 @@ Seems like everything is in place. If it's good enough, I'll upload it to the co
 ***LOADING...***
 
 
-## Chapter IV
+# Chapter IV
 
 \> *Type in "Done."*
 

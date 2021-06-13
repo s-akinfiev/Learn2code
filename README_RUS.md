@@ -18,7 +18,7 @@
 4. [Chapter IV](#chapter-iv)
 
 
-## Chapter I
+# Chapter I
 
 ## Level 1. Room 2.
 
@@ -34,7 +34,7 @@
 
 Абсолютно пустая комната. Если не считать пары коробок в углу.
 
-![](misc/rus/images/day2_box.png)
+![day2_box](misc/rus/images/day2_box.png)
 
 \> *Открыть коробки*
 
@@ -99,7 +99,7 @@
 ***LOADING...***
 
 
-## Chapter II
+# Chapter II
 
 ## List 1.
 
@@ -147,7 +147,7 @@
 ***LOADING...***
 
 
-## Chapter III
+# Chapter III
 
 ## Quest 1. Vim.
 
@@ -242,7 +242,7 @@
 ***LOADING...***
 
 
-## Chapter IV
+# Chapter IV
 
 \> *Набрать “Готово.”*
 
