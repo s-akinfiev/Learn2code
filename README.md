@@ -53,13 +53,16 @@ Below are several tips to help you find your way:
 9. If tip #8 hasn't helped–search for a guide. You are surrounded by many wanderers just like you and they will be happy to help you find the exit.
 10. Watch the time! It's deceitful. You have to complete at least one challenge a day!
 11. Be attentive and do not miss important things. Check the repository carefully!
-12. You will come across different tasks on your way. The tasks marked with the asterisk (*) are only for the most reckless ones. They are more difficult and not compulsory. But if you complete them, you will gain extra experience and knowledge.
-13. Some things may seem important but they are actually not. 
-14. Remember that ultimately the fact of completing the challenge is not as important as HOW you complete it.
-15. The main goal of our journey is to understand what "HOW" means.
-16. Separate the wheat from the chaff.
-17. Divide and rule. Decompose. 
-18. Think about the main thing (good code, obviously). Move from the general to the specific.
+12. Always push only to the develop branch! The master branch will be ignored. Work in the src directory.
+13. Remember that each task undergoes a series of checks: code style check, static analyzer check, check for correct work with memory, check with a set of autotests, check with a checklist. Be careful.
+14. You will come across different tasks on your way. The tasks marked with the asterisk (*) are only for the most reckless ones. They are more difficult and not compulsory. But if you complete them, you will gain extra experience and knowledge.
+15. Some things may seem important but they are actually not. 
+16. Remember that ultimately the fact of completing the challenge is not as important as HOW you complete it.
+17. The main goal of our journey is to understand what "HOW" means.
+18. Separate the wheat from the chaff.
+19. Divide and rule. Decompose. 
+20. Think about the main thing (good code, obviously). Move from the general to the specific.
+21. Reread these tips several times.
 
 ***PRESS ANY KEY TO CONTINUE………………***
 
