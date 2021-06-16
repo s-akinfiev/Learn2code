@@ -303,7 +303,7 @@ Unfortunately, it hasn't helped. And it's probably not going to. \
 Looks like you'll have to figure out the structure of the configuration files required to start the module. \
 Tip: save all the commands you use in quest3.sh, put it in the src folder, and do not forget to put it under version control. You never know when you might need to revive the module again. The easiest way to add an entry to a file is to redirect the echo command. But I didn't tell you that.
 
-_**== Quest 3 received. Sort things out with src/ai_door_managment_module.sh configuration files. Fix the errors, if necessary. Record all the commands you use in quest3.sh. ==**_
+_**== Quest 3 received. Sort things out with src/ai_door_managment_module.sh configuration files. Fix the errors, if necessary. Record all the commands you use in quest3.sh and put it under version control. ==**_
 
 ***LOADING…***
 
