@@ -191,7 +191,7 @@ The file must have plenty of factual errors! I want you to create a tool for fix
 
 ...
 
-***== Quest 2 received. Develop an src/edit.sh script for replacing substrings in text files. The input data must include the path to the file, the string to be replaced, and the replacement itself (as a string). The information on each change must be added to the log–src/files.log. Pay attention to the processing of edge cases. ==***
+***== Quest 2 received. Develop an src/edit.sh script for replacing substrings in text files. The input data must include the path to the file, the string to be replaced, and the replacement itself (as a string). The information on each change must be added to the log–src/files.log in the format described in the previous quest. Pay attention to the processing of edge cases. ==***
 
 ***LOADING...***
 
