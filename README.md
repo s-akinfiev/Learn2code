@@ -276,7 +276,7 @@ Enter a terminal command...
 
 That's a good idea. Perhaps the AI can advise you on how to get out of here... Talk to it.
 
-_**== Quest 2 received. Start the src/ai_initial_module.sh script in bash and follow the instructions. Fix the errors, if necessary. Tip: you can use output stream redirection to create the file. ==**_
+_**== Quest 2 received. Start the src/ai_initial_module.sh script in bash and follow the instructions. Fix the errors, if necessary. Put all changes under version control. Tip: you can use output stream redirection to create the file. ==**_
 
 ***LOADING…***
 
@@ -358,7 +358,7 @@ _**== Quest 5 received. Fix the configuration of the first door using the consol
 
 ## Quest 6. Rm.
 
-\> *Restart the configuration module*
+\> *Restart the configuration module ai_door_managment_module.sh*
 
 That would be too easy, right? You can see that the configuration has been read but the door is still locked.
  
@@ -390,8 +390,8 @@ The AI (mechanical voice):
 
 *A lot of unclear noise.* 
 
->Files with parts of the key will be different from the rest, you need to put them in a separate directory, and remove all the garbage. 
->Once you've collected parts of the key without the garbage in a separate directory, run **src/ai_help/unifier.sh** in it, which I have kindly prepared. Good luck to you, organic intelligence. Don't let me down. I've bet on you. And the initialization module has not given a single CPU quantum.
+>Files with parts of the key will be different from the rest, you need to remove all the garbage. 
+>Once you've collected parts of the key without the garbage run **src/ai_help/unifier.sh**, which I have kindly prepared. Good luck to you, organic intelligence. Don't let me down. I've bet on you. And the initialization module has not given a single CPU quantum.
 
 *No matter how hard you listen, you can't hear anything else. The speaker is silent.*
 
