@@ -171,7 +171,7 @@ It's not 2001 anymore, is it? Supplement it, in Vim, of course (that's important
 
 I've just remembered. Add a title at the beginning of the file: "A Quick Summary Of the History of the Vim Editor." Record this change in the log as well.
 
-***== Quest 1 received. Complement the src/history_of_vim.txt file with latest data on Vim, using Vim. Add information on both changes to the log–src/files.log–in the following format: path to the file–file size–date and time–SHA-sum of the file–SHA calculation algorithm. ==***
+***== Quest 1 received. Complement the src/history_of_vim.txt file with latest data on Vim, using Vim. Add information on both changes to the log: src/files. log–in the following format: path to the file–file size–date and time–SHA-sum of the file–SHA calculation algorithm. ==***
 
 ***LOADING...***
 
@@ -185,13 +185,13 @@ Great!
 \> *Type in "Can I leave now?"*
 
 I'm not so sure. I'm starting to like it. \
-The file must have plenty of factual errors! I want you to create a tool for fixing them easily. It has to be a .sh script (src/edit.sh) so I can run it without too much trouble. The input data must include the file name, the string to be replaced, and the replacement itself (as a string). The actual replacement must take place in the file and a corresponding entry must be added to the log. 
+The file must have plenty of factual errors! I want you to create a tool for fixing them easily. It has to be a .sh script (src/edit.sh) so I can run it without too much trouble. The input data must include the path to the file, the string to be replaced, and the replacement itself (as a string). The actual replacement must take place in the file and a corresponding entry must be added to the log. 
 
 \> *Awesome. I wish I knew how to write these scripts..*
 
 ...
 
-***== Quest 2 received. Develop an src/edit.sh script for replacing substrings in text files. The input data must include the path to the file, the string to be replaced, and the replacement itself (as a string). The information on each change must be added to the log–src/files.log in the format described in the previous quest. Pay attention to the processing of edge cases. ==***
+***== Quest 2 received. Develop an src/edit.sh script for replacing substrings in text files. The input data must include the path to the file  (relative to the root directory), the string to be replaced, and the replacement itself (as a string). The information on each change must be added to the log: src/files.log in the format described in the previous quest. Pay attention to the processing of edge cases. ==***
 
 ***LOADING...***
 
@@ -206,7 +206,7 @@ Not bad.
 
 You know what, for some reason our log file is growing way too fast. I am concerned about its analysis. I'd like you to create another script (src/log_analyzer.sh) to output log analytics to stdout: the total number of records, the number of unique files, the number of changes that caused changes in the hash file. The script must have one argument: the path to the log file.
 
-***== Quest 3 received. Develop an src/log_analyzer.sh script for analyzing the log file. It should receive the path to the file as input, and output 3 numbers to stdout: the total number of records, the number of unique files, and the number of changes that caused changes in the hash file. Example of output for log status after Quest 1: 3 1 3 ==***
+***== Quest 3 received. Develop an src/log_analyzer.sh script for analyzing the log file. It should receive the path to the file (relative to the root directory) as input, and output 3 numbers to stdout: the total number of records, the number of unique files, and the number of changes that caused changes in the hash file. Example of output for log status after Quest 1: 3 1 3 ==***
 
 ***LOADING...***
 
