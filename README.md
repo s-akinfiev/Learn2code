@@ -171,7 +171,7 @@ It's not 2001 anymore, is it? Supplement it, in Vim, of course (that's important
 
 I've just remembered. Add a title at the beginning of the file: "A Quick Summary Of the History of the Vim Editor." Record this change in the log as well.
 
-***== Quest 1 received. Complement the src/history_of_vim.txt file with latest data on Vim, using Vim. Add information on both changes to the log: src/files. log–in the following format: path to the file–file size–date and time–SHA-sum of the file–SHA calculation algorithm. ==***
+***== Quest 1 received. Complement the src/history_of_vim.txt file with latest data on Vim, using Vim. Add information on both changes to the log: src/files. log–in the following format: path to the file – file size in bytes – date and time – SHA-sum of the file – SHA calculation algorithm. ==***
 
 ***LOADING...***
 
