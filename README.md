@@ -206,7 +206,7 @@ Not bad.
 
 You know what, for some reason our log file is growing way too fast. I am concerned about its analysis. I'd like you to create another script (src/log_analyzer.sh) to output log analytics to stdout: the total number of records, the number of unique files, the number of changes that caused changes in the hash file. The script must have one argument: the path to the log file.
 
-***== Quest 3 received. Develop an src/log_analyzer.sh script for analyzing the log file. It should receive the path to the file (relative to the root directory) as input, and output 3 numbers to stdout: the total number of records, the number of unique files, and the number of changes that caused changes in the hash file. Example of output for log status after Quest 1: 3 1 3 ==***
+***== Quest 3 received. Develop an src/log_analyzer.sh script for analyzing the log file. It should receive the path to the file (relative to the root directory) as input, and output 3 numbers to stdout: the total number of records, the number of unique files, and the number of changes that caused changes in the hash file. Provide for the processing of incorrect or missing files. Example of output for log status after Quest 1: 3 1 3 ==***
 
 ***LOADING...***
 
