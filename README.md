@@ -62,7 +62,10 @@ Below are several tips to help you find your way:
 18. Separate the wheat from the chaff.
 19. Divide and rule. Decompose. 
 20. Think about the main thing (good code, obviously). Move from the general to the specific.
-21. Reread these tips several times.
+21. Do not cheat, do not try to deceive the system and others. First of all, you will deceive yourself.
+22. Do not write off, but if you use help - always figure it out to the end. Otherwise, your journey will not make any sense.
+23. Check "materials" folder often. There can be a lot of useful things there!
+24. Reread these tips several times.
 
 ***PRESS ANY KEY TO CONTINUE………………***
 
