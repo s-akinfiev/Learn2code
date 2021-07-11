@@ -1,6 +1,8 @@
 # T01D01 
 The russian version of the task can be found in the repository.
 
+You can find some useful video materials [here](https://edu.21-school.ru/video/selection/7fdda478-e087-4d60-91cb-cef679d409dd).
+
 ![day1_door](misc/images/eng/day1_door.png)
 
 ## Contents
