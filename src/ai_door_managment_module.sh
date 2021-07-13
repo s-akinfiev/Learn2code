@@ -5,6 +5,15 @@ count=0
 echo 'Здравствуйте! Вы запустили модуль ИИ, контролирующий все двери комплекса.'
 echo 'Загрузка необходимых файлов с данными...'
 if [ -d "door_managment_files" ]; then
+  uname_out="$(uname -s)"
+  case "${uname_out}" in
+    Linux*)     machine=Linux;;
+    Darwin*)    machine=Mac;;
+    CYGWIN*)    machine=Cygwin;;
+    MINGW*)     machine=MinGw;;
+    *)          machine="UNKNOWN:${unameOut}"
+  esac
+  
   cd door_managment_files
   echo
   echo
@@ -16,7 +25,13 @@ if [ -d "door_managment_files" ]; then
     for file in `find . -maxdepth 1 -type f -name "*.conf"`
     do
       wc -l $file;
-      stat -c %s $file;
+      if [ "$machine" == "Linux" ]
+      then
+	      stat -c %s $file;
+      else
+              stat -f %s $file;
+      fi
+      
       cat $file;
       count=$[ $count + 1 ]
     done
@@ -51,7 +66,12 @@ if [ -d "door_managment_files" ]; then
     for file in `find . -maxdepth 1 -type f -name "*.log"`
     do
       wc -l $file;
-      stat -c %s $file;
+      if [ "$machine" == "Linux" ]
+      then
+	      stat -c %s $file;
+      else
+              stat -f %s $file;
+      fi
       cat $file;
       count=$[ $count + 1 ]
     done
