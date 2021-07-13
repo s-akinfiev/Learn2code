@@ -25,11 +25,11 @@ if [ -d "door_managment_files" ]; then
     for file in `find . -maxdepth 1 -type f -name "*.conf"`
     do
       wc -l $file;
-      if [ "$machine" == "Linux" ]
+      if [ "$machine" == "Mac" ]
       then
-	      stat -c %s $file;
+	      stat -f %s $file;
       else
-              stat -f %s $file;
+        stat -c %s $file;
       fi
       
       cat $file;
@@ -66,11 +66,11 @@ if [ -d "door_managment_files" ]; then
     for file in `find . -maxdepth 1 -type f -name "*.log"`
     do
       wc -l $file;
-      if [ "$machine" == "Linux" ]
+      if [ "$machine" == "Mac" ]
       then
-	      stat -c %s $file;
+	        stat -f %s $file;
       else
-              stat -f %s $file;
+          stat -c %s $file;
       fi
       cat $file;
       count=$[ $count + 1 ]

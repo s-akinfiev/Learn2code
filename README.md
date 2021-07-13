@@ -281,7 +281,7 @@ Enter a terminal command...
 
 That's a good idea. Perhaps the AI can advise you on how to get out of here... Talk to it.
 
-_**== Quest 2 received. Start the src/ai_initial_module.sh script in bash and follow the instructions. Fix the errors, if necessary. Put all changes under version control. Tip: you can use output stream redirection to create the file. ==**_
+_**== Quest 2 received. Start the src/ai_initial_module.sh script in bash and follow the instructions. Fix the errors, if necessary. Put all changes under version control. ==**_
 
 ***LOADING…***
 
