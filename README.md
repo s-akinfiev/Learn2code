@@ -281,7 +281,7 @@ Enter a terminal command...
 
 That's a good idea. Perhaps the AI can advise you on how to get out of here... Talk to it.
 
-_**== Quest 2 received. Start the src/ai_initial_module.sh script in bash and follow the instructions. Fix the errors, if necessary. Put all changes under version control. ==**_
+_**== Quest 2 received. Start the src/ai_initial_module.sh script in bash and follow the instructions. Fix the errors, if necessary (you can't change the script). Put all changes under version control. ==**_
 
 ***LOADING…***
 
@@ -308,7 +308,7 @@ Unfortunately, it hasn't helped. And it's probably not going to. \
 Looks like you'll have to figure out the structure of the configuration files required to start the module. \
 Tip: save all the commands you use in quest3.sh, put it in the src folder, and do not forget to put it under version control. You never know when you might need to revive the module again. The easiest way to add an entry to a file is to redirect the echo command. But I didn't tell you that.
 
-_**== Quest 3 received. Sort things out with src/ai_door_managment_module.sh configuration files. Fix the errors, if necessary. Record all the commands you use in quest3.sh and put it under version control. ==**_
+_**== Quest 3 received. Sort things out with src/ai_door_managment_module.sh configuration files. Fix the errors, if necessary. Record all the commands you use in quest3.sh and put all changes under version control. ==**_
 
 ***LOADING…***
 
@@ -404,7 +404,7 @@ The AI (mechanical voice):
 
 *You see a couple of scripts, just like the AI has promised. Just reminding you to record all the commands you use (quest6.sh) and the results of their work in the repository.*
 
-_**== Quest 6 received. Using scripts from the ai_help folder and bash commands, create the main.key file. Record all the commands you use in quest6.sh. ==**_
+_**== Quest 6 received. Using scripts from the ai_help folder and bash commands, create the main.key file. Record all the commands you use in quest6.sh. Put all changes under version control. ==**_
 
 ***LOADING…***
 
