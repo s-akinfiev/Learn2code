@@ -308,7 +308,7 @@ Unfortunately, it hasn't helped. And it's probably not going to. \
 Looks like you'll have to figure out the structure of the configuration files required to start the module. \
 Tip: save all the commands you use in quest3.sh, put it in the src folder, and do not forget to put it under version control. You never know when you might need to revive the module again. The easiest way to add an entry to a file is to redirect the echo command. But I didn't tell you that.
 
-_**== Quest 3 received. Sort things out with src/ai_door_managment_module.sh configuration files. Fix the errors, if necessary. Record all the commands you use in quest3.sh and put all changes under version control. ==**_
+_**== Quest 3 received. Sort things out with src/ai_door_managment_module.sh configuration files. Fix the errors, if necessary. Record all the commands you use in src/quest3.sh and put all changes under version control. ==**_
 
 ***LOADING…***
 
@@ -333,7 +333,7 @@ Kill it.
 
 And don't forget to document all your actions in quest4.sh. Just in case. Who knows how many of these inconvenient modules you come across along the way. 
 
-_**== Quest 4 received. Stop the activated src/ai_door_control.sh module. Record all the commands you use in quest4.sh. ==**_
+_**== Quest 4 received. Stop the activated src/ai_door_control.sh module. Record all the commands you use in src/quest4.sh. ==**_
 
 ***LOADING…***
 
@@ -356,7 +356,7 @@ The information is not very clear. Although one line does clearly imply that the
 
 Looks like you'll have to do it manually. Search for the console text editor and correct it. Once you've corrected it, specify your actions in the terminal as a numbered list in quest5.txt and put it under version control together with the changed configuration.
 
-_**== Quest 5 received. Fix the configuration of the first door using the console text editor (nano, vi, vim, etc.). Specify the selected editor and all the commands you use in quest5.txt. ==**_
+_**== Quest 5 received. Fix the configuration of the first door using the console text editor (nano, vi, vim, etc.). Specify the selected editor and all the commands you use in src/quest5.txt. ==**_
 
 ***LOADING…***
 
@@ -404,7 +404,7 @@ The AI (mechanical voice):
 
 *You see a couple of scripts, just like the AI has promised. Just reminding you to record all the commands you use (quest6.sh) and the results of their work in the repository.*
 
-_**== Quest 6 received. Using scripts from the ai_help folder and bash commands, create the main.key file. Record all the commands you use in quest6.sh. Put all changes under version control. ==**_
+_**== Quest 6 received. Using scripts from the ai_help folder and bash commands, create the main.key file. Record all the commands you use in src/quest6.sh. Put all changes under version control. ==**_
 
 ***LOADING…***
 
