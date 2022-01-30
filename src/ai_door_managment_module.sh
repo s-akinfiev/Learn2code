@@ -27,7 +27,7 @@ if [ -d "door_managment_files" ]; then
       wc -l $file;
       if [ "$machine" == "Mac" ]
       then
-	      stat -f %s $file;
+	      stat -f %z $file;
       else
         stat -c %s $file;
       fi
@@ -68,7 +68,7 @@ if [ -d "door_managment_files" ]; then
       wc -l $file;
       if [ "$machine" == "Mac" ]
       then
-	        stat -f %s $file;
+	        stat -f %z $file;
       else
           stat -c %s $file;
       fi
