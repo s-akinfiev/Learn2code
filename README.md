@@ -404,7 +404,7 @@ The AI (mechanical voice):
 
 *You see a couple of scripts, just like the AI has promised. Just reminding you to record all the commands you use (quest6.sh) and the results of their work in the repository.*
 
-_**== Quest 6 received. Using scripts from the ai_help folder and bash commands, create the main.key file. Record all the commands you use in src/quest6.sh. Put all changes under version control. ==**_
+_**== Quest 6 received. Using scripts from the ai_help folder and bash commands, create the main.key file. Place it and the key folder in the src/ai_help directory. Record all the commands you use in src/quest6.sh. Put all changes under version control. ==**_
 
 ***LOADING…***
 
