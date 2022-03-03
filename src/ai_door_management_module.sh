@@ -4,7 +4,7 @@ count=0
 
 echo 'Здравствуйте! Вы запустили модуль ИИ, контролирующий все двери комплекса.'
 echo 'Загрузка необходимых файлов с данными...'
-if [ -d "door_managment_files" ]; then
+if [ -d "door_management_files" ]; then
   uname_out="$(uname -s)"
   case "${uname_out}" in
     Linux*)     machine=Linux;;
@@ -14,7 +14,7 @@ if [ -d "door_managment_files" ]; then
     *)          machine="UNKNOWN:${unameOut}"
   esac
   
-  cd door_managment_files
+  cd door_management_files
   echo
   echo
   echo '-------------------------------------' 
@@ -82,7 +82,7 @@ if [ -d "door_managment_files" ]; then
 
   cd ..
 else
-  echo "door_managment_files: No such file or directory"
+  echo "door_management_files: No such file or directory"
 fi
 
 echo

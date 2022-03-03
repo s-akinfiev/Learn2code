@@ -294,9 +294,9 @@ There is a lot of text. It seems like the launch of the modules has triggered a 
 
 \> *Ask a question "How do I get out of here"*
 
-You manage to find a line in the pile of text: "Try talking to src/ai_door_managment_module.sh"
+You manage to find a line in the pile of text: "Try talking to src/ai_door_management_module.sh"
 
-\> *Start src/ai_door_managment_module.sh*
+\> *Start src/ai_door_management_module.sh*
 
 The module tried to read some files for initialization and launch, and, most likely, failed.
 
@@ -308,7 +308,7 @@ Unfortunately, it hasn't helped. And it's probably not going to. \
 Looks like you'll have to figure out the structure of the configuration files required to start the module. \
 Tip: save all the commands you use in quest3.sh, put it in the src folder, and do not forget to put it under version control. You never know when you might need to revive the module again. The easiest way to add an entry to a file is to redirect the echo command. But I didn't tell you that.
 
-_**== Quest 3 received. Sort things out with src/ai_door_managment_module.sh configuration files. Fix the errors, if necessary. Record all the commands you use in src/quest3.sh and put all changes under version control. ==**_
+_**== Quest 3 received. Sort things out with src/ai_door_management_module.sh configuration files. Fix the errors, if necessary. Record all the commands you use in src/quest3.sh and put all changes under version control. ==**_
 
 ***LOADING…***
 
@@ -317,7 +317,7 @@ _**== Quest 3 received. Sort things out with src/ai_door_managment_module.sh con
 
 \> *Read the terminal*
 
-After the successful start of src/ai_door_managment_module.sh, the ai_door_control submodule has activated. Whatever you do, its activity leaves annoying traces everywhere.
+After the successful start of src/ai_door_management_module.sh, the ai_door_control submodule has activated. Whatever you do, its activity leaves annoying traces everywhere.
 
 \> *What does it do?*
 
@@ -363,7 +363,7 @@ _**== Quest 5 received. Fix the configuration of the first door using the consol
 
 ## Quest 6. Rm.
 
-\> *Restart the configuration module ai_door_managment_module.sh*
+\> *Restart the configuration module ai_door_management_module.sh*
 
 That would be too easy, right? You can see that the configuration has been read but the door is still locked.
  
