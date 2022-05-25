@@ -14,7 +14,7 @@
     3.2. [Quest 2. Script.](#quest-2-script)  
     3.3. [Quest 3. Log.](#quest-3-log)  
     3.4. [Quest 4. Conflict.](#quest-4-conflict)  
-    3.5. [Quest 5. Gitlab.](#quest-5-gitlab)  
+    3.5. [Bonus Quest 5*. Gitlab.](#bonus-quest-5-gitlab)  
 4. [Chapter IV](#chapter-iv)
 
 
@@ -222,7 +222,7 @@
 ***LOADING...***
 
 
-## Quest 5. Gitlab.
+## Bonus Quest 5*. Gitlab.
 
 \> *Набрать “Это уже нечестно!”*
 
