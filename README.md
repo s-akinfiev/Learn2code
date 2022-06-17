@@ -243,7 +243,7 @@ Let me remind you that no one said anything about being fair. It's my last reque
 
 Seems like everything is in place. If it's good enough, I'll upload it to the collection of the best manuals of the main library system and you'll be proud of yourself.
 
-***== Quest 5 received. Prepare a brief manual on using GitLab in the src/gitlab_manual.md file, using Markdown. ==***
+***== Quest 5 received. Prepare a brief manual on the points above on using GitLab in the src/gitlab_manual.md file, using Markdown. Attach a screenshot to at least 5 points. ==***
 
 ***LOADING...***
 
