@@ -306,7 +306,7 @@ You need to create functions for tree traversal. Since there is no information a
 – prefix: elements will be displayed in the same order as they are stored 
 (root -> left subtree -> right subtree);
 – postfix: elements will be displayed in descending order 
-(right subtree -> root -> left subtree).
+(left subtree -> right subtree -> root).
 
 Function signatures look as follows and must all be implemented in src/bst.c:
 
