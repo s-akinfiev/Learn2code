@@ -125,6 +125,7 @@ Comments start with " /* " and end with " */ " and can take up multiple lines. T
 >- git push origin — To save changes to a remote server.
 >- git status — The current state of the repository.
 >- Do not push object files or executable files to the repository! Never!
+>- Always work in branches. Use the develop branch to do all your work.
 
 \> *Take another sheet of paper*
 
