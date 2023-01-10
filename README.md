@@ -154,7 +154,7 @@ You come up to the computer and notice another open book next to it. Somehow you
 
 Perhaps you should also create tests for every new function to make sure they work absolutely correctly. Who knows how broken code can affect the linguistics module that is already not working. And you still need to get out of this room. Plus, if something goes wrong, it will be easier to find the error with the tests. 
 
-For each added function in src/s21_string.h, add a test developed based on the idea of unit testing to the src/s21_string_test.h file, with the name of the function and the _test postfix which checks the function using a set of test data (minimum 3): normal values, abnormal values, boundary values, etc. For each test, the input, output, and test result (SUCCESS/FAIL) must be output to stdout. 
+For each added function in src/s21_string.h, add a test developed based on the idea of unit testing to the src/s21_string_test.c file, with the name of the function and the _test postfix which checks the function using a set of test data (minimum 3): normal values, abnormal values, boundary values, etc. For each test, the input, output, and test result (SUCCESS/FAIL) must be output to stdout. 
 
 > DON'T FORGET! All your programs are tested for the style norm and memory leaks. Start-up instructions
 > the list of tests is also in the `materials` folder
