@@ -175,7 +175,7 @@ I've just remembered. Add a title at the beginning of the file: "A Quick Summary
 
 > Attention, do not forget to go to the develop branch, all work should take place only there!
 
-***== Quest 1 received. Complement the src/history_of_vim.txt file with latest data on Vim, using Vim. Add information on both changes to the log: src/files. log–in the following format: path to the file – file size in bytes – date and time – SHA-sum of the file – SHA calculation algorithm. ==***
+***== Quest 1 received. Complement the src/history_of_vim.txt file with latest data on Vim, using Vim. Add information on both changes to the log: src/files.log – in the following format: path to the file (relative to the root directory) – file size in bytes – date and time – SHA-sum of the file – SHA calculation algorithm. ==***
 
 ***LOADING...***
 
@@ -195,7 +195,7 @@ The file must have plenty of factual errors! I want you to create a tool for fix
 
 ...
 
-***== Quest 2 received. Develop an src/edit.sh script for replacing substrings in text files. The input data must include the path to the file  (relative to the root directory), the string to be replaced, and the replacement itself (as a string). The information on each change must be added to the log: src/files.log in the format described in the previous quest. Pay attention to the processing of edge cases. ==***
+***== Quest 2 received. Develop an src/edit.sh script for replacing substrings in text files. The input data must include the path to the file (relative to the root directory), the string to be replaced, and the replacement itself (as a string). The information on each change must be added to the log: src/files.log in the format described in the previous quest. Pay attention to the processing of edge cases. ==***
 
 ***LOADING...***
 
@@ -210,7 +210,7 @@ Not bad.
 
 You know what, for some reason our log file is growing way too fast. I am concerned about its analysis. I'd like you to create another script (src/log_analyzer.sh) to output log analytics to stdout: the total number of records, the number of unique files, the number of changes that caused changes in the hash file. The script must have one argument: the path to the log file.
 
-***== Quest 3 received. Develop an src/log_analyzer.sh script for analyzing the log file. It should receive the path to the file (relative to the root directory) as input, and output 3 numbers to stdout: the total number of records, the number of unique files, and the number of changes that caused changes in the hash file. Provide for the processing of incorrect or missing files. Example of output for log status after Quest 1: 3 1 3 ==***
+***== Quest 3 received. Develop an src/log_analyzer.sh script for analyzing the log file. It should receive the path to the file (relative to the root directory) as input, and output 3 numbers to stdout: the total number of records, the number of unique files, and the number of changes that caused changes in the hash file. Provide for the processing of incorrect or missing files. Example of output for log status after Quest 1: 3 1 2 ==***
 
 ***LOADING...***
 
