@@ -154,7 +154,7 @@ The hard drive is rustling joyfully:
 
 > **Attention!** All paths in the Makefile must be specified relative to the directory in which it is located, since it will be launched from there
 
-***== Quest 3 received. Finalize the src/main_executable_module module so src/main_executable_module/main_executable_module.c is able to start and work correctly. Develop a Makefile for building the solution and place it in the src/main_executable_module directory. Add standard targets to the Makefile: clean, all, rebuild. When creating the Makefile, follow standard solutions used for developing programs in C. The compiled file should be located in the build folder at the root of the repository. It should be named Quest_3. ==***
+***== Quest 3 received. Finalize the src/main_executable_module module so src/main_executable_module/main_executable_module.c is able to start and work correctly. Develop a Makefile for building the solution and place it in the src/main_executable_module directory. Add standard targets to the Makefile: clean, all, rebuild. When creating the Makefile, follow standard solutions used for developing programs in C. The compiled file should be located in the build folder at the root of the repository. It should be named Quest_3. The compile result itself should not be uploaded to the repository. ==***
 
 ***LOADING…***
 
@@ -182,7 +182,7 @@ The computer is taking off:
      
     Press Enter to skip or when it's ready.
 
-***== Quest 4 received. Add the data_io_macro.h implementation to the src/data_libs folder using parametrized multiline macro definitions. The implementation has to work with any types of arrays. Modify main_executable_module.c to make it possible to configure the connection of the io module's header file using a macro (standard data_io.h or data_io_macro.h implementation). Add the build_with_macro target to the Makefile for building main_executable_module with data_io_macro.h, and edit the all target if necessary (for working with data_io.h). The compiled file should be located in the build folder at the root of the repository. It should be named Quest_4. ==***
+***== Quest 4 received. Add the data_io_macro.h implementation to the src/data_libs folder using parametrized multiline macro definitions. The implementation has to work with any types of arrays. Modify main_executable_module.c to make it possible to configure the connection of the io module's header file using a macro (standard data_io.h or data_io_macro.h implementation). Add the build_with_macro target to the Makefile for building main_executable_module with data_io_macro.h, and edit the all target if necessary (for working with data_io.h). The compiled file should be located in the build folder at the root of the repository. It should be named Quest_4. The compile result itself should not be uploaded to the repository. ==***
 
 ***LOADING...***
 
