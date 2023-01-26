@@ -36,7 +36,7 @@ You enter the room and find yourself thinking that it is as if it has not been d
 Suddenly, on the wall right in front of you, the zeros and ones begin to disappear, and clearly some kind of sheet is formed in a wooden frame. Sweat ran down my back, and sweat broke out on my forehead. The AI seems to have completely worked and cooling is no longer enough. But what you read will make you sweat for the rest of the time...
 
 > Starting from this day all your programs, in addition to correct output tests, will also be tested for style norms. Before submitting solutions you can test
-> your programs locally. You can find some instructiontions here: ```materials/instructions_for_testing.md```
+> your programs locally. You can find some instructions here: ```materials/instructions_for_testing.md```
 
 Only after realizing what has happened, the zeros and ones return to the wall again, slowly absorbing the sheet of information..information
 that means more work for you. But high-quality code is cool! It is easier to read and maintain, so if someone else is in these rooms after you, they can easily modify your programs so that the AI likes them again. And its requirements will undoubtedly grow, it is developing..and you need it too!
