@@ -1,7 +1,7 @@
 # T10D16
 The Russian version of the task can be found in the repository.
 
-You can find some useful video materials [here](https://edu.21-school.ru/video/selection/925365ef-066d-4be6-81a9-2667102d8da9).
+You can find some useful video materials [here](https://edu.21-school.ru/video/selection/0b12ef26-01a2-4bfc-8d74-e1a01c0168fd).
 
 ![This_day_will_help_you_get_acquainted_with_characters_and_strings_C](misc/eng/images/day10_door.png)
 
