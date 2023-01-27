@@ -1,7 +1,7 @@
 # T13D22
 The russian version of the task can be found in the repository.
 
-You can find some useful video materials [here](https://edu.21-school.ru/video/selection/6b681d37-774d-44c0-8358-7d0b329742cb).
+You can find some useful video materials [here](https://edu.21-school.ru/video/selection/2e3ff6c7-26f8-4b0a-a282-7cc0647a9824).
 
 ![This day will help you get acquainted with text files processing.](misc/eng/images/day13_door.png)
 
