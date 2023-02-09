@@ -67,7 +67,7 @@ LOADING Room 2…***
 
 \> *Поиск...*
 
-Удача. Вы находите книгу с говорящим названием: "The String.h - Linux manual. Complete edition."
+Удача. Вы находите книгу с говорящим названием: "The String.h - Linux manual. Complete edition".
 
 \> *Открыть книгу*
 
