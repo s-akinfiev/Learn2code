@@ -21,6 +21,8 @@ check your program and its source code for the following points:
 
 * **Test for correct operation with memory.** When writing C programs, it is very important to watch for memory leaks. To do this the _valgrind_ utility is quite often used in Unix-like operating systems. However OS X has some troubles with valgrind support, so it is possible to use _leaks_ utility instead. Go into we will not discuss the mechanism of their operation now - if you are interested, you can read about it on Google.
 
+  **_LEAKS_**
+
   To run your executable file using this utility, type in the terminal: \
   ```leaks -atExit -- ./main.out | grep LEAK:```  
   
@@ -39,3 +41,14 @@ check your program and its source code for the following points:
   _Additionally:_  \
   Use the ```-exclude``` option of _leaks_ to filter out leaks in functions with known memory leaks. 
   This option helps reduce the amount of extra information reported by _leaks_.
+
+  **_VALGRIND_**
+  
+  To install it on your computer, type one of the following commands: \
+   ```brew install valgrind``` \
+   or if you have root rights (for Ubuntu / Linux Mint / Debian) \
+   ```sudo apt install valgrind``` \
+   To run your executable file using this utility, type in the terminal: \
+   ```valgrind --tool=memcheck --leak-check=yes. /main. out```
+   
+   It is strongly recommended not to use _valgrind_ utility in OS X, use _leaks_ utility  instead.
