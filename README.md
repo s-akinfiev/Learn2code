@@ -184,6 +184,8 @@ You open the file with the key and see the code, broken down into several blocks
 
 ***== Quest 3 received. Modify the src/key9part1.c program so it can receive the array's length and an array of integers. The program should output in stdout the sum of the even elements of the array and the newly formed array from the elements of the old one, by which the previously calculated sum is divided evenly. Decreasing the decomposition is not allowed–you can add functions if needed, but you cannot delete them. Using stdlib.h is not allowed. Passing an array to a function only by pointer. The maximum size of the input array is 10. In case of an error or the absence of even elements, display "n/a". ==***
 
+Note: zero is considered an odd number.
+
 | Input | Output |
 | ------ | ------ |
 | 10<br/>4 3 9 0 1 2 0 2 7 -1 | 8<br/>4 1 2 2 -1 |
