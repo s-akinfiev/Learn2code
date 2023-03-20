@@ -128,7 +128,7 @@ You take another sheet of paper...
 
 On the back you see the handwritten text.
 
-> The use of global variables is strictly not recommended, because they lead 
+> The use of global variables is prohibited, because they lead 
 > to an increase in the number of implicit relationships, which in turn have a bad effect on 
 > scalability and readability, and also lead to difficult perceptible errors.
 
