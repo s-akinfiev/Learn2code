@@ -146,7 +146,7 @@ And here's the solution.
 
 # Chapter III
 
-> Don't forget to check your programs with `cpplint.py` and `cppcheck`
+> Don't forget to check your programs with `clang-format` and `cppcheck`
 
 ## Quest 1. Master DB.
 
@@ -166,7 +166,7 @@ level only contains the main AI module, once again using the functions described
 For debugging, do not forget to add the option of viewing the contents of all tables, 
 adding, and removing values. There is no strict format for input and output values in 
 this task (functional tests,
-respectively, too, but you should not forget about `cpplint` and `cppcheck`), but remember-the responsibility for the interface lies on your shoulders. Who knows, history is cyclical, and suddenly the salvation of humanity will again depend on this program. I would not like this operation to fail due to the inability to understand the (albeit text-based) interface of your exploit. Even the AI should like it, even though it is designed to destroy it.
+respectively, too, but you should not forget about `clang-format` and `cppcheck`), but remember-the responsibility for the interface lies on your shoulders. Who knows, history is cyclical, and suddenly the salvation of humanity will again depend on this program. I would not like this operation to fail due to the inability to understand the (albeit text-based) interface of your exploit. Even the AI should like it, even though it is designed to destroy it.
 
 Remember to save the developed DBMS in the repository for the future!
 
@@ -179,6 +179,7 @@ Add a function call that implements the instruction from [List 1](#list-1) to sr
 Add an output that the first cell of the first level only contains the main AI module, 
 using the functions described above. For debugging, add the option of viewing the 
 contents of all tables, adding, and removing values. \
+Add the build_db target to the Makefile for building program. The Makefile should be located in the src directory. \
 The database structure is described in [List 1](#list-1). Database files are 
 located in the /materials directory. \
 Hint: each record in the database is a struct data type with the fields in the same 
