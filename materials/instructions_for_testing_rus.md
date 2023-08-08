@@ -14,4 +14,6 @@
   или, если у вас есть root-права (для Ubuntu / Linux Mint / Debian) \
   ```sudo apt install clang-format```
 
-
+  Необходимая версия clang-format: \
+  **Mac** 14.0.5 \
+  **Linux** 13.0.1
