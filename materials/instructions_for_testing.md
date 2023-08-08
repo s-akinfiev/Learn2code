@@ -18,6 +18,10 @@ check your program and its source code for the following points:
   or if you have root rights (for Ubuntu / Linux Mint / Debian) \
   ```sudo apt install clang-format```
 
+  Required version of clang-format: \
+  **Mac** 14.0.5 \
+  **Linux** 13.0.1
+
 
 * **Test for correct operation with memory.** When writing C programs, it is very important to watch for memory leaks. To do this the _valgrind_ utility is quite often used in Unix-like operating systems. However OS X has some troubles with valgrind support, so it is possible to use _leaks_ utility instead. Go into we will not discuss the mechanism of their operation now - if you are interested, you can read about it on Google.
 
