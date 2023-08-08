@@ -372,7 +372,7 @@ You're starting to think that the AI is just blatantly using you. But you still 
     The cracking module, src/crack.c, must therefore receive two floating-point numbers – 
     the x and y coordinates of the point — the electronic lock pick,
     and output "GOTCHA" if the coordinates of the point are exactly _inside_ the circle, and "MISS" otherwise. 
-    The function of the lock's circle usually looks like this: x^2 + y^2 = 25. 
+    The equation of the lock's circle usually looks like this: x^2 + y^2 = 25. 
     So, good luck to you, "human"! I hope to see you in the next room. Hehe. 
 
 ***== Quest 7 received. Create an src/crack.c program that receives two floating-point numbers and outputs "GOTCHA" if the coordinates of the point are inside the circle, and "MISS" otherwise. Provide for entering only numbers — in case of an error, output n/a, can be used 
