@@ -110,7 +110,6 @@ Comments start with " /* " and end with " */ " and can take up multiple lines. T
 >
 >Free Software Foundation
 >1000 Mass Ave
->Cambridge, MA  02138
 
 \> *Take another sheet of paper*
 
@@ -162,8 +161,8 @@ You check the open catalog in the terminal and find the AI module, just like the
     Warning: The src/hello.c introduction module required to continue the work is not found… 
     Add the introduction module!
 
-You take a look at the remaining files in the current directory and realize that you need to check the repository. However, the src folder of the repository does not contain anything that looks like an introduction module. Seems like you'll have to create it yourself. \
-While browsing the catalog, you also notice that almost the entire AI ​​code is written in the C11 version of the C language using the GCC compiler and a standard library. You should probably stick to this rule for compatibility. \
+You take a look at the remaining files in the current directory and realize that you need to check the repository. However, the src folder of the repository does not contain anything that looks like an introduction module. Seems like you'll have to create it yourself. 
+While browsing the catalog, you also notice that almost the entire AI ​​code is written in the C11 version of the C language using the GCC compiler and a standard library. You should probably stick to this rule for compatibility. 
 The introduction module you develop should display a greeting on the terminal 
 screen. Let's make it "Hello, AI!" Also, remember to push the code of the 
 created module.
@@ -387,6 +386,6 @@ only `<stdio.h>`. ==***
 
 # Chapter IV
 
-When you're done with the cracking module and find the suitable point for the electronic lock pick, the lock finally clicks and the door opens. All there's left to do is take a step into the next room..
+When you're done with the cracking module and find the suitable point for the electronic lock pick, the lock finally clicks and the door opens. All there's left to do is take a step into the next room...
 
-***LO AD I N …***
+***LOADING…***
