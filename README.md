@@ -265,5 +265,5 @@ For a moment, the whole host of these restless questions fell upon you, stopping
 
 You take one last look at the rooms and exit without any regrets, making a step towards your future!
 
-***LOADING..?***
+***LOADING?..***
 
