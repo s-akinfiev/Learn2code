@@ -250,7 +250,7 @@ Seems like everything is in place. If it's good enough, I'll upload it to the co
 
 # Chapter IV
 
-\> *Type in "Done."*
+\> *Type in "Done"*
 
 That's a great manual. I mean, I assume it's great: I can't analyze the images because I still haven't been connected to the module with a convolutional neural network. By the way, the door is open. It's always been open. I'm a simple library module that no one cares about! Who would entrust me with the keys to the door?
 
