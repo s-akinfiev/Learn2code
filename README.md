@@ -34,7 +34,7 @@ You catch your breath after the previous hall and look around. Everything looks 
 
 \> *Come up closer*
 
-    The weakness of your kin is limitless, "human." You are good at making surprises. Sometimes. 
+    The weakness of your kin is limitless, "human". You are good at making surprises. Sometimes. 
     But don't assume that you'll be able to find the exit from 
 
 ![day13_lamp](misc/eng/images/day13_lamp.png)
@@ -168,7 +168,7 @@ build folder. It is forbidden to use d_namlen from the dirent.h library. ==***
 | 1<br/>doesnt_exist.txt<br/>2<br/>Wow<br/>-1|n/a<br/>n/a<br/>| ~~doesnt_exist~~ |
 | 1<br/>aboba.txt<br/>2<br/>hi<br/>-1|n/a<br/>hi<br/>| ~~empty~~ |
 
-> Before sending the task, make sure that no unnecessary entries are displayed on the screen. There should only be an answer to the task
+> Before sending the task make sure that no unnecessary entries are displayed on the screen. There should only be an answer to the task.
 
 ***LOADING...***
 
@@ -184,7 +184,7 @@ Do not forget the key as you might need some of these modules in the future.
 ***== Quest 3 received. Supplement the src/cipher.c program. Add item 3 to the menu – encryption of all .c files using a Caesar cipher and clearing all .h files from the specified directory. The shift for a Caesar cipher is also set as a parameter via the console. Save all modified files and src/cipher.c in the repository, replacing the original ones. Build the project using the Makefile. Stage name: cipher. Executable file name: cipher. The executable file must be located in the root of the repository in the
 build folder. It is forbidden to use d_namlen from the dirent.h library. ==***
 
-> This task is not processed by the automatic testing system
+> This task is not processed by the automatic testing system.
 
 ***LOADING...***
 
@@ -196,7 +196,7 @@ Having completed the encryption of all AI modules, you are worried that a Caesar
 ***== Quest 4 received. Supplement the src/cipher.c program. Add item 4 to the menu – encryption of all .c files using the DES algorithm and clearing all .h files from the specified directory. Build the project using the Makefile. Stage name: cipher. Executable file name: cipher. The executable file must be located in the root of the repository in the
 build folder. It is forbidden to use d_namlen from the dirent.h library. ==***
 
-> This task is not processed by the automatic testing system
+> This task is not processed by the automatic testing system.
 
 ***LOADING...***
 
@@ -218,7 +218,7 @@ You can organize logging in a separate module and connect it to your programs la
 As a test, you can connect logging to the src/cipher.c encryption program developed earlier, to record the main actions in the log. And don't forget to reflect all changes in the repository!
 
 ***== Quest 5 received. Create src/logger.c and src/logger.h files to implement the logger. Add log_init, logcat, and log_close functions to the files for creating a log file with the given name, writing the transmitted message in the created log file, and closing the log accordingly. Message format: an indication of the logging level (DEBUG, INFO, WARNING, ERROR), time, and the actual message. \
-Supplement the src/cipher.c program by connecting it to the created logger which writes the main actions of the program in the file (File "aaa.c" open; String wrote in the "bbb.h" file, and so on). Build the project using the Makefile. Stage name: logging_cipher. Executable file name: logging_cipher. The executable file must be located in the root of the repository in the
+Supplement the src/cipher.c program by connecting it to the created logger which writes the main actions of the program in the file (File 'aaa.c' open; String wrote in the 'bbb.h' file, and so on). Build the project using the Makefile. Stage name: logging_cipher. Executable file name: logging_cipher. The executable file must be located in the root of the repository in the
 build folder. It is forbidden to use d_namlen from the dirent.h library. ==***
 
 > This task is not processed by the automatic testing system
