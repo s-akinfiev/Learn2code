@@ -135,15 +135,15 @@ There are no windows. Just the door. The screen has no windows either...
 
 \> *Press Enter*
 
-The cursor jumps to the next line
+The cursor jumps to the next line.
 
 \> *Wait*
 
-Nothing is happening
+Nothing is happening.
 
 \> *Wait*
 
-Nothing is happening
+Nothing is happening.
 
 \> *Look at the desk*
 
