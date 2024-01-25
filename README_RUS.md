@@ -1,6 +1,6 @@
 # T01D01
 
-Полезные видеоматериалы вы можете найти в разделе "Projects (Media)" на Платформе.
+Полезные видеоматериалы ты можешь найти в разделе "Projects (Media)" на Платформе.
 
 ![This day will help you get acquainted with Linux shell (Bash).](misc/images/rus/day1_door.png)
 
