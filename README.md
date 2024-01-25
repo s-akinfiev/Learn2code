@@ -1,7 +1,7 @@
 # T07D10 
 The russian version of the task can be found in the repository.
 
-You can find some useful video materials [here](https://edu.21-school.ru/video/selection/b185d27c-d388-4edb-9c63-67efc1672e12).
+You can find some useful video materials in the "Projects (Media)" section on the Platform.
 
 ![day7_door](misc/eng/images/day7_door.png)
 

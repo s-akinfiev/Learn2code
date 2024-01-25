@@ -1,5 +1,8 @@
 # T07D10 
 
+
+Полезные видеоматериалы ты можешь найти в разделе "Projects (Media)" на Платформе.
+
 ![day7_door](misc/rus/images/day7_door.png)
 
 
