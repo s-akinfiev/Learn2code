@@ -1,5 +1,8 @@
 # T11D17
 
+
+Полезные видеоматериалы ты можешь найти в разделе "Projects (Media)" на Платформе.
+
 ![This day will help you get acquainted with structures and unions in C.](misc/rus/images/day11_door.png)
 
 
