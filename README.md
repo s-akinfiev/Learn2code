@@ -1,7 +1,7 @@
 # T04D04
 The russian version of the task can be found in the repository.
 
-You can find some useful video materials [here](https://edu.21-school.ru/video/selection/15cb6428-234a-4bd3-9612-1c743554ebea).
+You can find some useful video materials in the "Projects (Media)" section on the Platform.
 
 ![day4_door](misc/eng/images/day4_door.png)
   

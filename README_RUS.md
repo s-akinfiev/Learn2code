@@ -1,5 +1,8 @@
 # T04D04
 
+
+Полезные видеоматериалы ты можешь найти в разделе "Projects (Media)" на Платформе.
+
 ![day4_door](misc/rus/images/day4_door.png)
 
 
