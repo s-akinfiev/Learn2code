@@ -1,5 +1,8 @@
 # T13D22
 
+
+Полезные видеоматериалы ты можешь найти в разделе "Projects (Media)" на Платформе.
+
 ![This day will help you get acquainted with text files processing.](misc/rus/images/day13_door.png)
 
 
