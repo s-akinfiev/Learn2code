@@ -1,5 +1,8 @@
 # T15D24-T16D25
 
+
+Полезные видеоматериалы ты можешь найти в разделе "Projects (Media)" на Платформе.
+
 ![Final project.](misc/rus/images/day15_door.png)
 
 

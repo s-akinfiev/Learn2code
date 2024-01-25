@@ -1,7 +1,7 @@
 # T15D24-T16D25 
 The russian version of the task can be found in the repository.
 
-You can find some useful video materials [here](https://edu.21-school.ru/video/selection/617cbdd9-ff7d-416a-aa5b-f1daa32dffa3).
+You can find some useful video materials in the "Projects (Media)" section on the Platform.
 
 ![Final project.](misc/eng/images/day15_door.png)
 
