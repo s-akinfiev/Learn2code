@@ -1,6 +1,8 @@
 # T12D18
 The russian version of the task can be found in the repository.
 
+You can find some useful video materials in the "Projects (Media)" section on the Platform.
+
 ![This_day_will_help_you_get_acquainted_with_callbacks,_varargs_&_tree_structures.](misc/eng/images/day12_door.png)
 
 

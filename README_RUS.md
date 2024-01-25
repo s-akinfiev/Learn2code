@@ -1,5 +1,8 @@
 # T12D18
 
+
+Полезные видеоматериалы ты можешь найти в разделе "Projects (Media)" на Платформе.
+
 ![This day will help you get acquainted with callbacks, varargs & tree sctructures.](misc/rus/images/day12_door.png)
 
 
