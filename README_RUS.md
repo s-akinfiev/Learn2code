@@ -1,5 +1,8 @@
 # T10D16
 
+
+Полезные видеоматериалы ты можешь найти в разделе "Projects (Media)" на Платформе.
+
 ![This day will help you get acquainted with characters and strings (C).](misc/rus/images/day10_door.png)
 
 
