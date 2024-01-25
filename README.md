@@ -1,7 +1,7 @@
 # T02D02
 The russian version of the task can be found in the repository.
 
-You can find some useful video materials [here](https://edu.21-school.ru/video/selection/925a1595-273d-4202-93d4-18fdbff9f4f9).
+You can find some useful video materials in the "Projects (Media)" section on the Platform.
 
 ![day2_door](misc/eng/images/day2_door.png)
 

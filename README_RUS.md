@@ -1,5 +1,8 @@
 # T02D02
 
+
+Полезные видеоматериалы ты можешь найти в разделе "Projects (Media)" на Платформе.
+
 ![This day will help you get acquainted with git and improve your bash skills.](misc/rus/images/day2_door.png)
 
 
