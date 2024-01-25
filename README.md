@@ -1,7 +1,7 @@
 # T05D08
 The russian version of the task can be found in the repository.
 
-You can find some useful video materials [here](https://edu.21-school.ru/video/selection/5477a9b9-1f29-4f46-822a-dbe27e91d3e5).
+You can find some useful video materials in the "Projects (Media)" section on the Platform.
 
 ![day5_door](misc/eng/images/day5_door.png)
 
