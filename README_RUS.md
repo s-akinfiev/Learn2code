@@ -1,5 +1,8 @@
 # T03D03
 
+
+Полезные видеоматериалы ты можешь найти в разделе "Projects (Media)" на Платформе.
+
 ![This day will help you get acquainted with the base operations in C such as input, output, and arithmetic.](misc/rus/images/day3_door.png)
 
 
