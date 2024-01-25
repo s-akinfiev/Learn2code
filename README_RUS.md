@@ -1,5 +1,8 @@
 # T06D09
 
+
+Полезные видеоматериалы ты можешь найти в разделе "Projects (Media)" на Платформе.
+
 ![day6_door](misc/rus/images/day6_door.png)
 
 

@@ -1,7 +1,7 @@
 # T06D09 
 The russian version of the task can be found in the repository.
 
-You can find some useful video materials [here](https://edu.21-school.ru/video/selection/596616bb-a392-474c-8a89-ad3af6e56b36).
+You can find some useful video materials in the "Projects (Media)" section on the Platform.
 
 ![day6_door](misc/eng/images/day6_door.png)
 
