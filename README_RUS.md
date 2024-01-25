@@ -1,5 +1,8 @@
 # T08D11
 
+
+Полезные видеоматериалы ты можешь найти в разделе "Projects (Media)" на Платформе.
+
 ![This day will help you get acquainted with matrices and their processing algorithms.](misc/rus/images/day8_door.png)
 
 

@@ -1,6 +1,8 @@
 # T08D11 
 The russian version of the task can be found in the repository.
 
+You can find some useful video materials in the "Projects (Media)" section on the Platform.
+
 ![This day will help you get acquainted with matrices and their processing algorithms.](misc/eng/images/day8_door.png)
 
 
