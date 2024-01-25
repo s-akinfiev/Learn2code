@@ -1,6 +1,8 @@
 # T14D23 
 The russian version of the task can be found in the repository.
 
+You can find some useful video materials in the "Projects (Media)" section on the Platform.
+
 ![This day will help you get acquainted with binary files processing.](misc/eng/images/day14_door.png)
 
 

@@ -1,5 +1,8 @@
 # T14D23
 
+
+Полезные видеоматериалы ты можешь найти в разделе "Projects (Media)" на Платформе.
+
 ![This day will help you get acquainted with binary files processing.](misc/rus/images/day14_door.png)
 
 
