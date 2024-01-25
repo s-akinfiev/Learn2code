@@ -1,5 +1,8 @@
 # T09D15
 
+
+Полезные видеоматериалы ты можешь найти в разделе "Projects (Media)" на Платформе.
+
 ![This day will help you get acquainted with multifile projects.](misc/rus/images/day9_door.png)
 
 

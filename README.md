@@ -1,7 +1,7 @@
 # T09D15
 The russian version of the task can be found in the repository.
 
-You can find some useful video materials [here](https://edu.21-school.ru/video/selection/bbb23648-5bc2-489e-8d60-a2bd2865e4d0).
+You can find some useful video materials in the "Projects (Media)" section on the Platform.
 
 ![This day will help you get acquainted with multifile projects.](misc/eng/images/day9_door.png)
 
