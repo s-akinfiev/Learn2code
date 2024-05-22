@@ -11,21 +11,17 @@ check your program and its source code for the following points:
   copy ```.clang-format``` to the ```src``` folder. \
   \
   To run the style check, run the following command: \
-  ```clang-format -n src/sourcefile_name.c``` \
-  \
-  To download clang-format, enter one of the following commands in the terminal: \
-  ```brew install clang-format``` \
-  or if you have root rights (for Ubuntu / Linux Mint / Debian) \
-  ```sudo apt install clang-format```
+  ```clang-format -n src/sourcefile_name.c``` 
 
   Required version of clang-format: \
   **Mac** 14.0.5 \
   **Linux** 13.0.1
 
-
 * **Test for correct operation with memory.** When writing C programs, it is very important to watch for memory leaks. To do this the _valgrind_ utility is quite often used in Unix-like operating systems. However OS X has some troubles with valgrind support, so it is possible to use _leaks_ utility instead. Go into we will not discuss the mechanism of their operation now - if you are interested, you can read about it on Google.
 
-  **_LEAKS_**
+ #### _LEAKS (MacOS)_
+
+  **Important!** If you are using a Unix-like system (for example, Ubuntu / Linux Mint / Debian), go to the [section with instructions for using VALGRIND](#valgrind-ubuntu--linux-mint--debian).
 
   To run your executable file using this utility, type in the terminal: \
   ```leaks -atExit -- ./main.out | grep LEAK:```  
@@ -46,14 +42,13 @@ check your program and its source code for the following points:
   Use the ```-exclude``` option of _leaks_ to filter out leaks in functions with known memory leaks. 
   This option helps reduce the amount of extra information reported by _leaks_.
 
-  **_VALGRIND_**
-  
-  To install it on your computer, type one of the following commands: \
-   ```brew install valgrind``` \
-   or if you have root rights (for Ubuntu / Linux Mint / Debian) \
-   ```sudo apt install valgrind``` \
+  ---
+
+  #### _VALGRIND (Ubuntu / Linux Mint / Debian)_
+
    To run your executable file using this utility, type in the terminal: \
    ```valgrind --tool=memcheck --leak-check=yes. /main. out```
-   
-   It is strongly recommended not to use _valgrind_ utility in OS X, use _leaks_ utility  instead.
-  
+
+   It is strongly recommended not to use _valgrind_ utility in OS X, use [_leaks_](#leaks-macos) utility  instead.
+
+  Also, you can read the [information on installing the software and Valgrind](https://21-school.ru/install_soft_to_school_IMacs).
