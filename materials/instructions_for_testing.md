@@ -11,12 +11,7 @@ check your program and its source code for the following points:
   copy ```.clang-format``` to the ```src``` folder. \
   \
   To run the style check, run the following command: \
-  ```clang-format -n src/sourcefile_name.c``` \
-  \
-  To download clang-format, enter one of the following commands in the terminal: \
-  ```brew install clang-format``` \
-  or if you have root rights (for Ubuntu / Linux Mint / Debian) \
-  ```sudo apt install clang-format```
+  ```clang-format -n src/sourcefile_name.c``` 
 
   Required version of clang-format: \
   **Mac** 14.0.5 \
