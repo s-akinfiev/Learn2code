@@ -11,3 +11,5 @@ shasum -a 256 history_of_vim.txt достаем sha 256 ключ
 3. Вставляем заголовок "A Quick Summary Of the History of the Vim Editor."
 
 4. Дополняем файл лога командами из 2 пункта
+
+5. исправил команду stat на stat -f "%R - %z - %Sm" -t "%Y-%m-%d %H:%M" history_of_vim.txt переписал лог-файл
