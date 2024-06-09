@@ -2,13 +2,13 @@
 #include <stdbool.h>
 #include <stdio.h>
 
-// const int WIDTH = 80;
-// const int HEIGHT = 25;
-// const int SCORE_GOAL = 21;
+const int WIDTH = 80;
+const int HEIGHT = 25;
+const int SCORE_GOAL = 21;
 
-const int WIDTH = 16;
-const int HEIGHT = 7;
-const int SCORE_GOAL = 2;
+// const int WIDTH = 16;
+// const int HEIGHT = 7;
+// const int SCORE_GOAL = 2;
 
 const int PADDLE_SIZE = 3;
 const int PADDLE1_X = 2;
@@ -38,19 +38,27 @@ bool ball_hits_paddle(int paddle_x, int paddle_y, int ball_x, int ball_y, int ba
 
 void score_display(int score1, int score2) {
     int score_width = (WIDTH - 3) / 2;
+    for (int x = 0; x < WIDTH; ++x) {
+        mvaddch(1, x, '=');
+        mvaddch(HEIGHT + 2, x, '=');
+    }
     mvprintw(0, 0, "%*d | %*d", score_width, score1, -score_width, score2);
+    for (int x = 0; x < WIDTH; ++x) {
+        mvaddch(1, x, '=');
+        mvaddch(HEIGHT + 2, x, '=');
+    }
 }
 
 void paddle_display(int paddle_x, int paddle_y, bool show) {
     char ch = show ? '|' : ' ';
     for (int i = 0; i < PADDLE_SIZE; ++i) {
-        mvaddch(1 + paddle_y + i, paddle_x, ch);
+        mvaddch(2 + paddle_y + i, paddle_x, ch);
     }
 }
 
 void ball_display(int ball_x, int ball_y, bool show) {
     char ch = show ? 'O' : ' ';
-    mvaddch(1 + ball_y, ball_x, ch);
+    mvaddch(2 + ball_y, ball_x, ch);
 }
 
 int play_game(void) {

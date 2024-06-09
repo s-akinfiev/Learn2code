@@ -1,13 +1,12 @@
-#include <stdbool.h>
 #include <stdio.h>
 
-// const int WIDTH = 80;
-// const int HEIGHT = 25;
-// const int SCORE_GOAL = 21;
+const int WIDTH = 80;
+const int HEIGHT = 25;
+const int SCORE_GOAL = 21;
 
-const int WIDTH = 10;
-const int HEIGHT = 7;
-const int SCORE_GOAL = 2;
+// const int WIDTH = 10;
+// const int HEIGHT = 7;
+// const int SCORE_GOAL = 2;
 
 const int PADDLE_SIZE = 3;
 const int PADDLE1_X = 0;
@@ -23,25 +22,25 @@ int move_paddle(int paddle_y, int offset) {
     return paddle_y;
 }
 
-bool ball_hits_paddle(int paddle_x, int paddle_y, int ball_x, int ball_y, int ball_vx, int ball_vy) {
+int ball_hits_paddle(int paddle_x, int paddle_y, int ball_x, int ball_y, int ball_vx, int ball_vy) {
     int check_y;
     if (ball_x == paddle_x) {
         check_y = ball_y;
     } else if (ball_x + ball_vx == paddle_x) {
         check_y = ball_y + ball_vy;
     } else {
-        return false;
+        return 0;
     }
-    return check_y >= paddle_y && check_y < paddle_y + PADDLE_SIZE;
+    return check_y >= paddle_y && check_y < paddle_y + PADDLE_SIZE ? 1 : 0;
 }
 
 void score_display(int score1, int score2) {
     int score_width = (WIDTH - 3) / 2;
-    printf("==========\n");
-    // printf("================================================================================\n");
+    // printf("==========\n");
+    printf("================================================================================\n");
     printf("%*d | %*d\n", score_width, score1, -score_width, score2);
-    printf("==========\n");
-    // printf("================================================================================\n");
+    // printf("==========\n");
+    printf("================================================================================\n");
 }
 
 void game_display(int paddle1_y, int paddle2_y, int ball_x, int ball_y) {
@@ -59,8 +58,8 @@ void game_display(int paddle1_y, int paddle2_y, int ball_x, int ball_y) {
         }
         putchar('\n');
     }
-    printf("==========\n");
-    // printf("================================================================================\n");
+    // printf("==========\n");
+    printf("================================================================================\n");
 }
 
 int play_game(void) {
@@ -108,9 +107,9 @@ int play_game(void) {
             } else if (ball_y == HEIGHT - 1 && ball_vy > 0) {
                 ball_vy = -1;
             }
-            if (ball_hits_paddle(PADDLE1_X, paddle1_y, ball_x, ball_y, ball_vx, ball_vy)) {
+            if (ball_hits_paddle(PADDLE1_X, paddle1_y, ball_x, ball_y, ball_vx, ball_vy) == 1) {
                 ball_vx = 1;
-            } else if (ball_hits_paddle(PADDLE2_X, paddle2_y, ball_x, ball_y, ball_vx, ball_vy)) {
+            } else if (ball_hits_paddle(PADDLE2_X, paddle2_y, ball_x, ball_y, ball_vx, ball_vy) == 1) {
                 ball_vx = -1;
             }
             ball_x += ball_vx;
