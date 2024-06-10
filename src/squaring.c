@@ -9,7 +9,6 @@ int main() {
     int n, data[NMAX];
 
     if (input(data, &n) == 0) {
-        ;
         squaring(data, n);
         output(data, n);
     } else
@@ -20,14 +19,17 @@ int main() {
 
 int input(int *a, int *n) {
     int input_error = 0;
+    char term = '\n';
 
-    if (scanf("%d", n) == 1 && *n > 0 && *n <= NMAX)
-        for (int *p = a; p - a < *n; p++)
-            if (scanf("%d", p) == 1)
-                ;
+    if (scanf("%d%c", n, &term) == 2 && *n > 0 && *n <= NMAX && term == '\n') {
+        for (int *p = a; p - a < *n; p++) {
+            if ((scanf("%d%c", p, &term)) == 2 && term == '\n')
+                input_error = 0;
             else
                 input_error = 1;
-    else
+        }
+
+    } else
         input_error = 1;
 
     return input_error;
