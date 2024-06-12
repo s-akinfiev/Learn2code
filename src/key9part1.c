@@ -1,3 +1,29 @@
+
+
+
+
+/*
+Получен Quest 3. Изменить программу src/key9part1.c так, чтобы она принимала на вход длину массива
+и массив целых чисел. В качестве выхода она должна вывести в stdout сумму четных элементов массива
+и новый сформированный массив из элементов старого, на которые делится нацело подсчитанная ранее сумма.
+Уменьшать декомпозицию нельзя - функции можно только добавлять при необходимости, но не убирать. 
+Использовать stdlib.h нельзя. Передача массива в функцию только по указателю. 
+Максимальный размер входного массива - 10. В случае ошибки или отсутствии четных элементов выводить «n/a». ==
+Примечание: ноль считать нечетным числом.
+
+
+
+Входные данные
+104 3 9 0 1 2 0 2 7 -1
+
+Выходные данные
+84 1 2 2 -1
+*/
+
+
+
+
+
 /*------------------------------------
 	Здравствуй, человек!
 	Чтобы получить ключ 
@@ -6,10 +32,10 @@
 
 #include <stdio.h>
 
-void input (int *buffer, int *length);
+int input (int *buffer, int *length);
 void output (int *buffer, int length);
 int sum_numbers(int *buffer, int length);
-int find_numbers(int* buffer, int length, int number, int* numbers)
+int find_numbers(int* buffer, int length, int number, int* numbers);
 
 /*------------------------------------
 	Функция получает массив данных 
@@ -23,6 +49,25 @@ int find_numbers(int* buffer, int length, int number, int* numbers)
 int main()
 {
     
+	return 0;
+}
+
+int input(int *buffer, int *lenght) {
+    char term = '\n';
+
+    for (int *a = buffer; buffer - a < *lenght; buffer++) {
+        if ((scanf("%d%c", buffer, &term)) != 2 || !(term == '\n' || term == ' ')) return 0;
+    }
+	return 1;
+}
+
+void output(int *buffer, int lenght) {
+    for (int *a = buffer; buffer - a < lenght; buffer++) {
+        if (buffer - a != lenght - 1)
+            printf("%d ", *buffer);
+        else
+            printf("%d \n", *buffer);
+    }
 }
 
 /*------------------------------------
@@ -53,5 +98,5 @@ int sum_numbers(int *buffer, int length)
 -------------------------------------*/
 int find_numbers(int* buffer, int length, int number, int* numbers)
 {
-
+	return 0;
 }
