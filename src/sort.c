@@ -4,17 +4,17 @@
 
 #define NMAX 10
 
-int input(int *a, int *n);
+int input(int *a, int n);
 void output(int *a, int n);
 void sorter(int *a, int n);
 
 int main() {
     int n = 1;
-    int *data;
+    // int *data;
 
     if (scanf("%d", &n) == 1 && n > 0 && n <= NMAX) {
-        data = (int *)malloc(n * sizeof(int));
-        if (input(data, &n) == 1) {
+        int *data = (int *)malloc(n * sizeof(int));
+        if (input(data, n) == 1) {
             sorter(data, n);
             output(data, n);
             free(data);
@@ -26,21 +26,20 @@ int main() {
     return 0;
 }
 
-int input(int *a, int *n) {
+int input(int *a, int n) {
     char term = '\n';
 
-    for (int *p = a; p - a < *n; p++) {
+    for (int *p = a; p - a < n; p++) {
         if ((scanf("%d%c", p, &term)) != 2 || !(term == '\n' || term == ' ')) return 0;
     }
     return 1;
 }
 
 void sorter(int *a, int n) {
-    int tmp = 0;
-    int swap_happened = 0;
+    int tmp;
 
     for (int *pi = a; pi - a < n; pi++) {
-        swap_happened = 0;
+        int swap_happened = 0;
         for (int *pj = a; pj - a < n - (pi - a) - 1; pj++) {
             if (*pj > *(pj + 1)) {
                 tmp = *pj;
