@@ -11,6 +11,6 @@ void output(double *a, int n) {
         if (i != n - 1)
             printf("%.2f ", a[i]);
         else
-            printf("%.2f \n", a[i]);
+            printf("%.2f", a[i]);
     }
 }

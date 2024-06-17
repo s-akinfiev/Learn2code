@@ -20,3 +20,20 @@ int normalization(double *data, int n) {
 
     return result;
 }
+
+void sort(double *a, int n) {
+    double tmp;
+
+    for (int i = 0; i < n; i++) {
+        int swap_happened = 0;
+        for (int j = 0; j < n - i - 1; j++) {
+            if (a[j] > a[j + 1]) {
+                tmp = a[j];
+                a[j] = a[j + 1];
+                a[j + 1] = tmp;
+                swap_happened = 1;
+            }
+        }
+        if (!swap_happened) break;
+    }
+}
