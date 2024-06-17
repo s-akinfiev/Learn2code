@@ -21,12 +21,15 @@ int main(void) {
         output(data, n);
 
         printf("\nNORMALIZED DATA:\n\t");
-        normalization(data, n);
-        output(data, n);
+        if (normalization(data, n))
+            output(data, n);
+        else printf("ERROR");
 
         printf("\nSORTED NORMALIZED DATA:\n\t");
+        if (normalization(data, n)){
         sort(data, n);
         output(data, n);
+        } else printf("ERROR");
 
         printf("\nFINAL DECISION:\n\t");
         if (make_decision(data, n))
