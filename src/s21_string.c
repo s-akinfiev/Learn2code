@@ -10,3 +10,11 @@ size_t s21_strlen(const char *str) {
     }
     return len;
 }
+
+/* int strcmp(const char *, const char *){
+    int res_cmp;
+
+
+
+    return res_cmp;
+} */

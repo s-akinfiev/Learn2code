@@ -3,5 +3,6 @@
 
 #include <stdio.h>
 size_t s21_strlen(const char *str);
+/* int strcmp(const char *, const char *); */
 
 #endif

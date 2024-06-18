@@ -21,5 +21,5 @@ clean:
 rebuild: clean all
 
 clang:
-	cp ../../materials/linters/.clang-format ../../src/
+	cp ../materials/linters/.clang-format ../src/
 	cd .. && clang-format -i */*.c */*.h --verbose
