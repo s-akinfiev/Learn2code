@@ -11,10 +11,10 @@ size_t s21_strlen(const char *str) {
     return len;
 }
 
-/* int strcmp(const char *, const char *){
-    int res_cmp;
-
-
-
-    return res_cmp;
-} */
+int s21_strcmp(const char *str_a, const char *str_b) {
+    while (*str_a && str_b && (*str_a == *str_b)) {
+        str_a++;
+        str_b++;
+    }
+    return *str_a == *str_b ? 0 : (*str_a > *str_b ? -1 : 1);
+}
