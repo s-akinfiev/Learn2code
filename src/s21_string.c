@@ -40,3 +40,13 @@ char *s21_strcat(char *destination, const char *append) {
     *(destination++) = '\0';
     return begin;
 }
+
+/* char *s21_strchr(const char *str, int ch) {
+    const char *index = NULL;
+    if (str != NULL){
+        for (; *str && *str != ch; str++){
+        }
+        if (*str != '\0') index = str;
+    }
+    return (char *)index;
+} */

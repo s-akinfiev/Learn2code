@@ -4,6 +4,7 @@ void s21_strlen_test(const char *str_test, size_t l);
 void s21_strcmp_test(const char *str_a, const char *str_b, int x);
 void s21_strcpy_test(char *destination, const char *source, const char *check);
 void s21_strcat_test(char *destination, const char *append, size_t len);
+// void s21_strchr_test (const char *str, int ch, int x);
 
 int main(void) {
 #ifdef STRLEN
@@ -74,3 +75,14 @@ void s21_strcat_test(char *destination, const char *append, size_t len) {
     else
         printf("FAIL\n");
 }
+
+/* void s21_strchr_test (const char *str, int ch, int x) {
+    printf("%s\t%s\t%s\t", str, ch);
+
+    char *p = s21_strchr(test_char, x);
+    if (p != NULL)
+    printf("%d", (int)(p - test_char));
+    else
+    printf("%d", -1);
+
+} */
