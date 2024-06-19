@@ -16,5 +16,5 @@ int s21_strcmp(const char *str_a, const char *str_b) {
         str_a++;
         str_b++;
     }
-    return *str_a == *str_b ? 0 : (*str_a > *str_b ? -1 : 1);
+    return *str_a == *str_b ? 0 : (*str_a > *str_b ? 1 : -1);
 }

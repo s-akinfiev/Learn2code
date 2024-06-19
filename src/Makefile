@@ -14,6 +14,8 @@ all:
 strlen_tests:
 	$(CC) $(CFLAGS) $(SOURCES) -DSTRLEN -o $(TARGET)$(EXECUTABLE)
 
+strcmp_tests:
+	$(CC) $(CFLAGS) $(SOURCES) -DSTRCMP -o $(TARGET)$(EXECUTABLE)
 	
 clean:
 	rm -rf $(TARGET)*
