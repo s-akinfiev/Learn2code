@@ -4,7 +4,7 @@ SOURCES=*.c
 TARGET=../build/
 EXECUTABLE=a
 EXECUTABLE_STATIC=Quest_5
-ALLC=-DSTRLEN -DSTRCMP -DSTRCPY
+ALLC=-DSTRLEN -DSTRCMP -DSTRCPY -DSTRCAT
 
 
 
@@ -20,6 +20,10 @@ strcmp_tests:
 
 strcpy_tests:
 	$(CC) $(CFLAGS) $(SOURCES) -DSTRCPY -o $(TARGET)$(EXECUTABLE)
+
+strcat_tests:
+	$(CC) $(CFLAGS) $(SOURCES) -DSTRCAT -o $(TARGET)$(EXECUTABLE)
+
 
 clean:
 	rm -rf $(TARGET)*

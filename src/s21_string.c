@@ -28,3 +28,15 @@ char *s21_strcpy(char *destination, const char *source) {
     destination[i] = '\0';
     return destination;
 }
+
+char *s21_strcat(char *destination, const char *append) {
+    char *begin = destination;
+    destination = destination + s21_strlen(destination);
+    while (*append) {
+        *destination = *append;
+        destination++;
+        append++;
+    }
+    *(destination++) = '\0';
+    return begin;
+}
