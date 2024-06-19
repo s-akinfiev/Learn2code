@@ -2,6 +2,7 @@
 
 void s21_strlen_test(const char *str_test, size_t l);
 void s21_strcmp_test(const char *str_a, const char *str_b, int x);
+void s21_strcpy_test(char *destination, const char *source, const char *check);
 
 int main(void) {
 #ifdef STRLEN
@@ -20,6 +21,15 @@ int main(void) {
     s21_strcmp_test(" A", "A", -1);
     s21_strcmp_test("abcdefghijklmnopqrstuvwxyz", "abcdefghijklmnopqrstuvwxyz", 0);
 #endif
+
+#ifdef STRCPY
+    char test[100] = " ";
+    s21_strcpy_test(test, "qwerty", "qwerty");
+    s21_strcpy_test(test, "12345", "12345");
+    s21_strcpy_test(test, " ", " ");
+    s21_strcpy_test(test, "", "");
+    s21_strcpy_test(test, "-091фыв[]{}<>", "-091фыв[]{}<>");
+#endif
 }
 
 void s21_strlen_test(const char *str_test, size_t l) {
@@ -35,5 +45,13 @@ void s21_strcmp_test(const char *str_a, const char *str_b, int x) {
     if ((s21_strcmp(str_a, str_b) == x))
         printf("SUCCESS\n");
     else
-        printf("FAIL\n");   
+        printf("FAIL\n");
+}
+
+void s21_strcpy_test(char *destination, const char *source, const char *check) {
+    printf("%s\t%s\t%s\t", destination, source, s21_strcpy(destination, source));
+    if (s21_strcmp(s21_strcpy(destination, source), check) == 0)
+        printf("SUCCESS\n");
+    else
+        printf("FAIL\n");
 }

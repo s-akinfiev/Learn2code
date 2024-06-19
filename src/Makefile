@@ -4,19 +4,23 @@ SOURCES=*.c
 TARGET=../build/
 EXECUTABLE=a
 EXECUTABLE_STATIC=Quest_5
+ALLC=-DSTRLEN -DSTRCMP -DSTRCPY
 
 
 
 
-all: 
-	$(CC) $(CFLAGS) $(SOURCES) -o $(TARGET)$(EXECUTABLE)
+all:
+	$(CC) $(CFLAGS) $(ALLC) $(SOURCES) -o $(TARGET)$(EXECUTABLE)
 
 strlen_tests:
 	$(CC) $(CFLAGS) $(SOURCES) -DSTRLEN -o $(TARGET)$(EXECUTABLE)
 
 strcmp_tests:
 	$(CC) $(CFLAGS) $(SOURCES) -DSTRCMP -o $(TARGET)$(EXECUTABLE)
-	
+
+strcpy_tests:
+	$(CC) $(CFLAGS) $(SOURCES) -DSTRCPY -o $(TARGET)$(EXECUTABLE)
+
 clean:
 	rm -rf $(TARGET)*
 

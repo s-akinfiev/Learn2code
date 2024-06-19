@@ -4,5 +4,6 @@
 #include <stdio.h>
 size_t s21_strlen(const char *str);
 int s21_strcmp(const char *str_a, const char *str_b);
+char *s21_strcpy(char *destination, const char *source);
 
 #endif

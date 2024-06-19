@@ -18,3 +18,13 @@ int s21_strcmp(const char *str_a, const char *str_b) {
     }
     return *str_a == *str_b ? 0 : (*str_a > *str_b ? 1 : -1);
 }
+
+char *s21_strcpy(char *destination, const char *source) {
+    int i = 0;
+    while (source[i]) {
+        destination[i] = source[i];
+        i++;
+    }
+    destination[i] = '\0';
+    return destination;
+}
