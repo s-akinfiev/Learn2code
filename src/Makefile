@@ -6,15 +6,14 @@ EXECUTABLE=Quest_1
 ALLC=-DSTRLEN -DSTRCMP -DSTRCPY -DSTRCAT
 
 
+all: door_struct list_test
+
 door_struct:
 	$(CC) $(CFLAGS) dmanager_module.c -o $(TARGET)Quest_1
 
 list_test:
 	$(CC) $(CFLAGS) list.c list_test.c -o $(TARGET)Quest_2
 	
-run:
-	$(TARGET)Quest_2
-
 clean:
 	rm -rf $(TARGET)*
 
