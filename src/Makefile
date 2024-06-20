@@ -22,6 +22,9 @@ clean:
 
 rebuild: clean all
 
-clang:
+cl:
 	cp ../materials/linters/.clang-format ../src/
 	cd .. && clang-format -i */*.c */*.h --verbose
+
+cc:
+	cppcheck --enable=all --suppress=missingIncludeSystem *.c *.h
