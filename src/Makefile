@@ -1,21 +1,19 @@
 CC=gcc
 CFLAGS=-std=c11 -Wall -Werror -Wextra
-SOURCES=*.c
+SOURCES=list.c list_test.c
 TARGET=../build/
 EXECUTABLE=Quest_1
 ALLC=-DSTRLEN -DSTRCMP -DSTRCPY -DSTRCAT
 
 
-1: all run
-
-all:
-	$(CC) $(CFLAGS) $(SOURCES) -o $(TARGET)$(EXECUTABLE)
-
 door_struct:
-	$(CC) $(CFLAGS) $(SOURCES) -o $(TARGET)$(EXECUTABLE)
+	$(CC) $(CFLAGS) dmanager_module.c -o $(TARGET)Quest_1
+
+list_test:
+	$(CC) $(CFLAGS) list.c list_test.c -o $(TARGET)Quest_2
 	
 run:
-	$(TARGET)$(EXECUTABLE) 
+	$(TARGET)Quest_2
 
 clean:
 	rm -rf $(TARGET)*

@@ -8,7 +8,7 @@ struct door {
 
 struct node {
     struct door door;
-    struct node *next;
+    struct node* next;
 };
 
 struct node* init(const struct door* door);
