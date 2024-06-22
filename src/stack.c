@@ -2,14 +2,14 @@
 
 #include <stdlib.h>
 
-struct stack *init(int data) {
+struct stack *init(struct token *data) {
     struct stack *top = malloc(sizeof(struct stack));
-    top->data = data;
+    top->data = *data;
     top->next = NULL;
     return top;
 }
 
-struct stack *push(struct stack *top, int data) {
+struct stack *push(struct stack *top, struct token *data) {
     struct stack *new_top = malloc(sizeof(struct stack));
     new_top->data = data;
     new_top->next = top;
@@ -23,6 +23,12 @@ struct stack *pop(struct stack *top) {
         free(top);
     }
     return new_top;
+}
+
+struct stack *read(struct stack *top) {
+    if (top != NULL)
+        return (top);
+    else return NULL;
 }
 
 void destroy(struct stack *top) {
