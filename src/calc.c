@@ -113,19 +113,19 @@ int choose(double *buf, int *inBuf, int f) {  // DEYSTVIYA
             break;
 
         case 115:  // "sin"
-            buf[*inBuf - 1] = sin(Deg2Rad(buf[*inBuf - 1]));
-            (*inBuf)--;
+            buf[*inBuf - 1] = sin(buf[*inBuf - 1]);
+
             break;
 
         case 99:  // "cos"
-            buf[*inBuf - 1] = cos(Deg2Rad(buf[*inBuf - 1]));
-            (*inBuf)--;
+            buf[*inBuf - 1] = cos(buf[*inBuf - 1]);
+
             break;
 
         case 116:  // "tan"
-            if (cos(Deg2Rad(buf[*inBuf - 1])) != 0) {
-                buf[*inBuf - 1] = tan(Deg2Rad(buf[*inBuf - 1]));
-                (*inBuf)--;
+            if (cos(buf[*inBuf - 1]) != 0) {
+                buf[*inBuf - 1] = tan((buf[*inBuf - 1]));
+
             } else {
                 printf("\nERROR - delenie na 0 v TAN!\n");
             }
@@ -133,9 +133,9 @@ int choose(double *buf, int *inBuf, int f) {  // DEYSTVIYA
             break;
 
         case 107:  // "ctg"
-            if (sin(Deg2Rad(buf[*inBuf - 1])) != 0) {
-                buf[*inBuf - 1] = cos(Deg2Rad(buf[*inBuf - 1])) / sin(Deg2Rad(buf[*inBuf - 1]));
-                (*inBuf)--;
+            if (sin(buf[*inBuf - 1]) != 0) {
+                buf[*inBuf - 1] = cos(buf[*inBuf - 1]) / sin(buf[*inBuf - 1]);
+
             } else {
                 printf("\nERROR - delenie na 0 v CTG!\n");
             }
@@ -144,7 +144,6 @@ int choose(double *buf, int *inBuf, int f) {  // DEYSTVIYA
         case 113:  // "sqrt"
             if (buf[*inBuf - 1] > 0) {
                 buf[*inBuf - 1] = sqrt(buf[*inBuf - 1]);
-                (*inBuf)--;
             } else {
                 printf("\nERROR sqrt(n < 0)!");
             }
@@ -153,7 +152,6 @@ int choose(double *buf, int *inBuf, int f) {  // DEYSTVIYA
         case 108:  // "ln"
             if (buf[*inBuf - 1] > 0) {
                 buf[*inBuf - 1] = log(buf[*inBuf - 1]);
-                (*inBuf)--;
             } else {
                 printf("\nERROR ln(n <= 0)!");
             }
@@ -165,4 +163,4 @@ int choose(double *buf, int *inBuf, int f) {  // DEYSTVIYA
     return flag;
 }
 
-double Deg2Rad(double a) { return a * 180 / M_PI; }
+// double Deg2Rad(double a) { return a * 180 / M_PI; }

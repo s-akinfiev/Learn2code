@@ -129,15 +129,15 @@ int main(void) {
     if (scanf("%99s", raw_input) == 1) {
         char outputstring[100];
         parse(raw_input, &root, outputstring);
+        int y;
+        if (scanf("%d", &y) == 1) {
+            double rez = calc(outputstring, strnlen(outputstring, 100), y);
 
-        double rez = calc(outputstring, strnlen(outputstring, 100), 5);
+            printf("%lf", rez);
 
-        printf("%lf", rez);
-
-        // printf("\n string is %s\n", raw_input);
-        // printf("\n%s\n", outputstring);
-
-        for (struct stack *p = root; p->next != NULL; p = p->next) printf("%s ", p->data);
+            for (struct stack *p = root; p->next != NULL; p = p->next) printf("%s ", p->data);
+        } else
+            printf("KURWA!!");
     } else
         printf("KURWA!!");
 
