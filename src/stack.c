@@ -1,17 +1,18 @@
 #include "stack.h"
 
 #include <stdlib.h>
+#include <string.h>
 
-struct stack *init(struct token *data) {
+struct stack *init(char *data) {
     struct stack *top = malloc(sizeof(struct stack));
-    top->data = *data;
+    strcpy(top->data, data);
     top->next = NULL;
     return top;
 }
 
-struct stack *push(struct stack *top, struct token *data) {
+struct stack *push(struct stack *top, char *data) {
     struct stack *new_top = malloc(sizeof(struct stack));
-    new_top->data = data;
+    strcpy(new_top->data, data);
     new_top->next = top;
     return new_top;
 }
@@ -25,11 +26,12 @@ struct stack *pop(struct stack *top) {
     return new_top;
 }
 
-struct stack *read(struct stack *top) {
+/* struct stack *stread(struct stack *top) {
     if (top != NULL)
         return (top);
-    else return NULL;
-}
+    else
+        return NULL;
+} */
 
 void destroy(struct stack *top) {
     struct stack *current = top->next;

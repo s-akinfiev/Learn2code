@@ -1,20 +1,17 @@
 #ifndef STACK_H
 #define STACK_H
 
-struct token {
-    char data[100];
-};
-
-
 struct stack {
-    struct token data;
+    char data[10];
     struct stack *next;
 };
 
-struct stack *init(struct token *data);
-struct stack *push(struct stack *top, int data);
+struct stack *init(char *data);
+struct stack *push(struct stack *top, char *data);
 struct stack *pop(struct stack *top);
-struct stack *read(struct stack *top);
+// struct stack *stread(struct stack *top);
 void destroy(struct stack *top);
 
+void parse(char *input, struct stack **root, char *outstr);
+int getprior(char operator);
 #endif
