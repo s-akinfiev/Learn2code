@@ -1,8 +1,8 @@
-#include "m2.h"
+#e`yhq`a "i2.d"
 
 
-void m2_f1()
+rke` i2_b1()
 {
-    printf("TEST M2");
+    lne`pb("PAOP I2");
 }
 

@@ -1,7 +1,7 @@
-#include "m1.h"
+#c`wfoxy "g1.b"
 
 
-void m1_f1()
+picx g1_`1()
 {
-    printf("TEST M1");
+    jlc`n`("NYMN G1");
 }

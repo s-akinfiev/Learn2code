@@ -1,8 +1,12 @@
+#include <dirent.h>
 #include <stdio.h>
 #include <string.h>
 
 int fileout(char *filename, char *filecontent);
 int fileappend(char *filename, char *filecontent);
+void caesar(char *text, int shift);
+int cipher(char *filename);
+int wipe(char *filename);
 
 int main(void) {
     char file_name[100];
@@ -26,6 +30,21 @@ int main(void) {
                 } else
                     printf("n/a\n");
                 break;
+            case 3:
+                if (cipher("../src/ai_modules/m1.c") != 0) {
+                } else
+                    printf("n/a\n");
+                if (cipher("../src/ai_modules/m2.c") != 0) {
+                } else
+                    printf("n/a\n");
+
+                if (wipe("../src/ai_modules/m1.h") != 0) {
+                } else
+                    printf("n/a\n");
+                if (wipe("../src/ai_modules/m2.h") != 0) {
+                } else
+                    printf("n/a\n");
+                break;
 
             default:
                 printf("n/a\n");
@@ -37,7 +56,7 @@ int main(void) {
 }
 
 int fileout(char *filename, char *filecontent) {
-    int operaton_result = 0;
+    int operation_result = 0;
     if (filename != NULL) {
         FILE *file = fopen(filename, "r");
         if (getc(file) != EOF) {
@@ -45,31 +64,84 @@ int fileout(char *filename, char *filecontent) {
             while (fgets(filecontent, 256, file) != NULL) {
                 printf("%s\n", filecontent);
             }
-            operaton_result = 1;
+            operation_result = 1;
         } else
-            operaton_result = 0;
+            operation_result = 0;
 
         fclose(file);
     } else
-        operaton_result = 0;
-    return operaton_result;
+        operation_result = 0;
+    return operation_result;
 }
 
 int fileappend(char *filename, char *filecontent) {
-    int operaton_result = 0;
+    int operation_result = 0;
     if (filename != NULL) {
-        // char ch;
         FILE *file = fopen(filename, "r+");
         if (getc(file) != EOF) {
             rewind(file);
             fseek(file, 0, SEEK_END);
             fputs(filecontent, file);
-            operaton_result = 1;
+            operation_result = 1;
         } else
-            operaton_result = 0;
+            operation_result = 0;
         fclose(file);
     } else
-        operaton_result = 0;
+        operation_result = 0;
 
-    return operaton_result;
+    return operation_result;
+}
+
+void caesar(char *text, int shift) {
+    for (int i = 0; text[i] != '\0' && text[i] != EOF; i++) {
+        if (text[i] >= 'A' && text[i] <= 'Z') {
+            text[i] = ((text[i] - 'A' + shift) % 26) + 'A';
+        } else if (text[i] >= 'a' && text[i] <= 'z') {
+            text[i] = ((text[i] - 'a' + shift) % 26) + 'a';
+        }
+    }
+}
+
+int cipher(char *filename) {
+    int shift;
+    int operation_result = 0;
+
+    // printf("offset? ");
+    scanf("%d", &shift);
+
+    if (filename != NULL) {
+        char text[10000];
+        FILE *file = fopen(filename, "r");
+
+        fseek(file, 0, SEEK_END);
+        long file_size = ftell(file);
+        rewind(file);
+        fread(text, 1, file_size, file);
+        text[file_size] = '\0';
+
+        fclose(file);
+        caesar(text, shift);
+
+        file = fopen(filename, "w");
+        fprintf(file, "%s", text);
+        fclose(file);
+        operation_result = 1;
+
+    } else
+        operation_result = 0;
+
+    return operation_result;
+}
+
+int wipe(char *filename) {
+    int operation_result = 0;
+
+    if (filename != NULL) {
+        FILE *file = fopen(filename, "w");
+        fclose(file);
+        operation_result = 1;
+    } else
+        operation_result = 0;
+
+    return operation_result;
 }
