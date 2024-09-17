@@ -1,0 +1,5 @@
+cd /src/
+cd door_management_files
+cat door_1.conf
+vim door_1.conf
+# esc потом i, потом исправил статус двери, esc, :wq
