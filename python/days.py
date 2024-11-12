@@ -3,20 +3,21 @@ n = int(input('Количество человек в группе? '))
 
 
 def fact(n):
-    a = 10
+    a = 1
     for i in range(n, 0, -1):
         a = a * i
     return a
 
+print(fact(n))
 chance = 1 - (fact(365) / ((365 ** n) * fact(365 - n)))
-print(f'Вероятность совпадения дней рождения: {chance:.5%}')
+print(f'Вероятность совпадения дней рождения: {chance:.2%}')
 for i in range(100):
     if i < round(chance*100):
         print('█', end='')
     else:
         print('░', end='')
 
-count_test = int(input('\nСколько раз раз будем проверять? '))
+count_test = int(input('\n Сколько раз раз будем проверять? '))
 
 dup_count = 0
 for i in range(0,count_test):
