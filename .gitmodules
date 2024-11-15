@@ -1,0 +1,4 @@
+[submodule "sc21-base/C3_SimpleBashUtils-1"]
+	path = sc21-base/C3_SimpleBashUtils-1
+	url = ssh://git@repos-ssh.21-school.ru:2289/students/C3_SimpleBashUtils.ID_353513/selusama_student.21_school.ru/C3_SimpleBashUtils-1.git
+	branch = develop
